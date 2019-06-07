@@ -64,16 +64,23 @@ margin-left: 10px;
 }
 img{
     float: left;
-    margin: 20px;
+    margin: 30px;
 }
+
 #bioPic{
     height: 150px;
     width: 150px;
+    margin: 20px;
 }
 .portPics{
     display: inline;
     height: 250px;
     width: 300px;
+    text-align: center;
+    margin: 30px;
+}
+.portpic img{
+    margin: 30px;
 }
 a{
     text-decoration: none;
@@ -118,13 +125,25 @@ input[type=email], select, textarea {
     border-radius: 4px;
     cursor: pointer;
   }
-  
-
-  
-  
   .contain {
     border-radius: 5px;
     background-color: #ffffff;
     padding: 20px;
     margin: 2%;
   }
+  li{
+      position: relative;
+
+  }
+  .links a::before{
+      content: '';
+      display: block;
+      height: 5px;
+      width: 0%;
+      background-color: #777777;
+      position: absolute;
+      transition: all ease-in-out 250ms;
+  }
+.links a:hover::before{
+    width: 100%;
+}
