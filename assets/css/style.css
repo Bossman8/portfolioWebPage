@@ -88,8 +88,7 @@ footer {
     line-height: 70px;
 }
 hr{
-    margin-left: -2%;
-    margin-right: -2%;
+    
 }
 input[type=email], select, textarea {
     width: 100%; 
