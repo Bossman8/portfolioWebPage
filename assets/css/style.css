@@ -23,6 +23,7 @@ h1{
     top: 50px;
     border: 1.5px solid #dddddd;
     width: 960px;
+    margin-bottom: 7%;
 
 }
 p{
@@ -62,10 +63,17 @@ margin-left: 10px;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 img{
-    height: 150px;
-    width: 150px;
     float: left;
     margin: 20px;
+}
+#bioPic{
+    height: 150px;
+    width: 150px;
+}
+.portPics{
+    display: inline;
+    height: 250px;
+    width: 300px;
 }
 a{
     text-decoration: none;
